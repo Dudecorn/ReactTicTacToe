@@ -5,6 +5,9 @@ body {
 
 ol, ul {
   padding-left: 30px;
+  /*  TURHAA  */
+  list-style-type: none;
+  /*  TURHAA  */
 }
 
 .board-row:after {
@@ -12,6 +15,47 @@ ol, ul {
   content: "";
   display: table;
 }
+
+/*  TURHAA  */
+
+ol {
+  display: flex;
+  max-width: 300px;
+  flex-wrap: wrap;
+
+}
+
+button {
+  background-color: #9d89a5;
+  border: none;
+  width: 150px;
+  border-bottom: solid 1.5px black;
+  padding: 3px;
+  margin: .5px 0px;
+}
+
+.winner {
+  background-color: #9d89a5;
+  padding: 3px;
+  border-bottom: solid 1.5px black;
+}
+
+body {
+  background-image: url('https://i2.wp.com/www.towleroad.com/wp-content/uploads/2017/05/hand_pepe.png?resize=492%2C497');
+  background-size: 100px;
+}
+
+button.square {
+  background-image: url('https://i2.wp.com/www.towleroad.com/wp-content/uploads/2017/05/hand_pepe.png?resize=492%2C497');
+  background-size: cover;
+}
+
+#greetings {
+  position: relative;
+  top: 800px;
+  color: green;
+}
+/*  TURHAA  */
 
 .status {
   margin-bottom: 10px;
